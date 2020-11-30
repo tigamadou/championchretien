@@ -10,6 +10,12 @@ code
     margin: 0 60px 60px
 .container
     max-width: 1250px!important
+.divider
+    padding-bottom: 1rem
+    .divider_cursor
+        width: 20%
+        height: 2px
+        background-color: #052230
 .navbar
     margin-bottom: 40px
     .navbar-item
@@ -37,15 +43,17 @@ code
         background-attachment: fixed
 
         .hero-body
-            background-color: #052230
-            opacity: .5
+            background-color: rgba(5,34,48,0.5)
+            
             transition: background .3s,border-radius .3s,opacity .3s
 
             .hero-content
                 width: 60%
+                
                 .title
                     font-size: 59px
                     line-height: 1.1em
+                    
                 .divider
                     padding-bottom: 1rem
                     .divider_cursor
@@ -68,12 +76,7 @@ code
             font-size: 15px
         .content
             font-size: 14px
-        .divider
-            padding-bottom: 1rem
-            .divider_cursor
-                width: 20%
-                height: 2px
-                background-color: #052230
+       
         &.is-big
             padding: 8rem 3rem
             margin-top: -10rem
@@ -90,3 +93,46 @@ code
                 line-height: 1.2em
             .subtitle
                 line-height: 1.5em
+.latest_news
+    margin-bottom: 6rem
+    .intro
+        text-transform: uppercase
+        font-weight: 900
+        margin-bottom: 1rem
+        padding-bottom: 1em
+
+.home_footer
+
+    .hero
+        background-image: url('http://capethemes.com/demo/religionis/wp-content/uploads/2019/10/people-2604831_1920.jpg')
+        background-position: center
+        background-size: cover
+        background-attachment: fixed
+        height: 90vh
+        .hero-body
+            justify-content: flex-end
+            align-items: center
+            padding: 0px
+            height: 90vh
+            display: flex
+            .hero-content
+                width: 60%
+                background: #e7ae43
+                padding: 5rem
+                .title
+                    font-size: 29px
+                    line-height: 1.1em
+                    max-width: 400px
+                .divider
+                    padding-bottom: 1rem
+                    .divider_cursor
+                        width: 20%
+                        height: 2px
+                        background-color: #fff
+                .subtitle
+                    color: #fff
+                    margin-top: 1rem
+                    max-width: 400px
+
+.footer
+    background: #e7ae43

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from '../components/Navbar'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 export default function Home() {
 
     return (
@@ -115,8 +116,15 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="container latest_sermon">
-                        <div className="intro">read and stay calm with our</div>
+                    <div className="container latest_news">
+                        <div className="intro">
+                            <p>
+                            read and stay calm with our
+                            </p>
+                        </div>
+                        <div className="divider">
+                                            <div className="divider_cursor"></div>
+                                        </div>
                         <div className="title">Dernières Publication</div>
                         <div className="columns">
                             <div className="column">
@@ -186,7 +194,55 @@ export default function Home() {
                         </div>
 
                     </div>
+                    <div className="container">
+                        <div className="columns">
+                            <div className="column has-background-light">
+                                <img src="http://capethemes.com/demo/religionis/wp-content/uploads/elementor/thumbs/family-2810999_1920-ok4s5wnpbmkktu6jwpbzoggq7fta77cafnf5zcwvn4.jpg"/>
+                            </div>
+                            <div className="column has-background-light ">
+                                <div className="hero is-medium">
+                                    <div className="hero-body">
+
+                                        <h2 className="title is-size-1">
+                                        Nous partageons l’amour de Dieu de diverses manières dans nos foyers, dans notre communauté locale et dans le monde entier.
+                                        </h2>
+                                        <div className="divider">
+                                            <div className="divider_cursor"></div>
+                                        </div>
+                                        <p>
+                                        Nous croyons que l'homme a été créé par Dieu à sa propre image, mais par son péché a encouru la mort physique et spirituelle. En conséquence, tous les êtres humains naissent avec une nature pécheresse et sont pécheurs par choix et donc condamnés.
+                                        </p>
+                                        <p>
+                                        Your Pastor
+
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="home_footer">
+                        <div className="hero is-dark is-large">
+                            <div className="hero-body" >
+                                    <div className="hero-content">
+
+                                        <h1 className="title">La grâce, l'amour et le pardon inconditionnels de Dieu pour tous.</h1>
+                                        <div className="divider">
+                                            <div className="divider_cursor"></div>
+                                        </div>
+                                        <p className="subtitle">
+                                        La Bible est la Parole de Dieu inspirée, infaillible, vivante et entièrement suffisante. La Parole de Dieu est le principal moyen par lequel les élus sont unis au Christ ressuscité et ensuite, en lui, nourris pour la vie éternelle.
+
+                                        </p>
+                                    </div>
+                               
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            <Footer/>
             </div>
         </div>
     )
