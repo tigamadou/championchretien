@@ -21,8 +21,13 @@ export default function Home() {
                             Qui sommes-nous?
                         </a>
                         <a className="navbar-item">
-                            Missions
+                            Devenir Membre
                         </a>
+                        <a className="navbar-item">
+                            Calendrier des Activités
+                        </a>
+
+
 
                         <a className="navbar-item">
                             Contacts
@@ -33,7 +38,7 @@ export default function Home() {
                         <div className="navbar-item">
                             <div className="buttons">
                                 <a className="button is-primary is-rounded is-outlined">
-                                    <strong>Rejoindre</strong>
+                                    <strong>Faire un Don</strong>
                                 </a>
 
                             </div>

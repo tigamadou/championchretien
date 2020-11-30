@@ -18,12 +18,12 @@ export default function Home() {
 
                                     <div className="hero-content">
 
-                                        <h1 className="title">God's unconditional grace, love, and forgiveness for all.</h1>
+                                        <h1 className="title">La grâce, l'amour et le pardon inconditionnels de Dieu pour tous.</h1>
                                         <div className="divider">
                                             <div className="divider_cursor"></div>
                                         </div>
                                         <p className="subtitle">
-                                            The Bible is the inspired, inerrant, living, and all-sufficient Word of God. God’s Word is the primary means by which the elect are united to the risen Christ and thereafter, in Him, nourished unto eternal life.
+                                        La Bible est la Parole de Dieu inspirée, infaillible, vivante et entièrement suffisante. La Parole de Dieu est le principal moyen par lequel les élus sont unis au Christ ressuscité et ensuite, en lui, nourris pour la vie éternelle.
 
                                         </p>
                                     </div>
@@ -39,16 +39,17 @@ export default function Home() {
                                     <div className="picture">
                                         <img src="http://capethemes.com/demo/religionis/wp-content/uploads/2020/01/006-church-b.png" />
                                     </div>
-                                    <h2 className="title">Worship</h2>
+                                    <h2 className="title">Culte</h2>
                                     <div className="subtitle">
-                                        What to Expect
+                                    À quoi s'attendre
+
                                     </div>
                                     <div className="divider">
                                         <div className="divider_cursor"></div>
                                     </div>
                                     <div className="content">
                                         <p>
-                                            When we speak of “worship,” we are referring to the life of our congregation: attending worship services, creating music, honoring life.
+                                        Lorsque nous parlons de «culte», nous faisons référence à la vie de notre congrégation: assister à des services de culte, créer de la musique, honorer la vie.
 
                                         </p>
                                     </div>
@@ -60,16 +61,16 @@ export default function Home() {
                                     <div className="picture">
                                         <img src="http://capethemes.com/demo/religionis/wp-content/uploads/2020/01/002-choir-b.png" />
                                     </div>
-                                    <h2 className="title">Connect</h2>
+                                    <h2 className="title">Relier</h2>
                                     <div className="subtitle">
-                                        Contacts & Members
+                                    Contacts et membres
                                     </div>
                                     <div className="divider">
                                         <div className="divider_cursor"></div>
                                     </div>
                                     <div className="content">
                                         <p>
-                                            Church life means faith, relationship, discipline, service, responsibilities of church leaders and members, and much more.
+                                        La vie de l'Église signifie la foi, les relations, la discipline, le service, les responsabilités des dirigeants et des membres de l'Église, et bien plus encore.
                                         </p>
                                     </div>
                                 </div>
@@ -80,16 +81,17 @@ export default function Home() {
                                     <div className="picture">
                                         <img src="http://capethemes.com/demo/religionis/wp-content/uploads/2020/01/005-child-b.png" />
                                     </div>
-                                    <h2 className="title">God’s Love</h2>
+                                    <h2 className="title">L'Amour de Dieu</h2>
                                     <div className="subtitle">
-                                        Beliefs and History
+                                    Croyances et histoire
                                     </div>
                                     <div className="divider">
                                         <div className="divider_cursor"></div>
                                     </div>
                                     <div className="content">
                                         <p>
-                                            Love is a key attribute in Christianity. The love of God is a prevalent concept both in the Old Testament and the New Testament.
+                                        L'amour est un attribut clé du christianisme. L'amour de Dieu est un concept répandu à la fois dans l'Ancien Testament et dans le Nouveau Testament.
+
                                         </p>
                                     </div>
                                 </div>
@@ -99,10 +101,11 @@ export default function Home() {
                             <div className="column">
                                 <div className="mission is-big">
                                     <h2 className="title">
-                                    We gather for inspiration, fellowship, and guidance in the meaning of Christian discipleship.
+                                    Nous nous rassemblons pour l'inspiration, la camaraderie et la direction dans le sens du discipulat chrétien.
                                     </h2>
                                     <p className="subtitle">
-                                    We share God’s love in various ways in our homes, places of work, local community, and throughout the world.
+                                    Nous partageons l’amour de Dieu de diverses manières dans nos maisons, nos lieux de travail, notre communauté locale et dans le monde entier.
+
 
         
                                     </p>
@@ -114,35 +117,71 @@ export default function Home() {
 
                     <div className="container latest_sermon">
                         <div className="intro">read and stay calm with our</div>
-                        <div className="title">Latest Sermons</div>
+                        <div className="title">Dernières Publication</div>
                         <div className="columns">
                             <div className="column">
-                                <div class="card">
+                                <div class="card has-background-light">
                                     <div class="card-image">
-                                        <figure class="image is-4by3">
-                                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
+                                        <figure class="image is-1by1">
+                                        <img src="https://placeimg.com/500/500/people" alt="Placeholder image"/>
                                         </figure>
                                     </div>
                                     <div class="card-content">
+                                        <h3 className="title">L'héritage que nous allons laisser derrière nous.</h3>
                                         
 
                                         <div class="content">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                                        <a href="#">#css</a> <a href="#">#responsive</a>
-                                        <br/>
-                                        <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                        Le baptême chrétien est l'immersion du croyant dans l'eau au nom du Dieu trinitaire.
+
+
+
                                         </div>
+                                        <a className="button is-rounded is-warning">Lire plus...</a>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="column">
+                            <div class="card has-background-light">
+                                    <div class="card-image">
+                                        <figure class="image is-1by1">
+                                        <img src="https://placeimg.com/500/500/people?id=1" alt="Placeholder image"/>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 className="title">L'héritage que nous allons laisser derrière nous.</h3>
+                                        
 
+                                        <div class="content">
+                                        Le baptême chrétien est l'immersion du croyant dans l'eau au nom du Dieu trinitaire.
+
+
+
+                                        </div>
+                                        <a className="button is-rounded is-warning">Lire plus...</a>
+                                    </div>
+                                </div>
                             </div>
                             <div className="column">
+                            <div class="card has-background-light">
+                                    <div class="card-image">
+                                        <figure class="image is-1by1">
+                                        <img src="https://placeimg.com/500/500/people?id=2" alt="Placeholder image"/>
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3 className="title">L'héritage que nous allons laisser derrière nous.</h3>
+                                        
 
-</div>
+                                        <div class="content">
+                                        Le baptême chrétien est l'immersion du croyant dans l'eau au nom du Dieu trinitaire.
+
+
+
+                                        </div>
+                                        <a className="button is-rounded is-warning">Lire plus...</a>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
 
